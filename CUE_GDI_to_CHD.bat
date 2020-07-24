@@ -1,4 +1,7 @@
 @echo off
+REM CUE_GDI_to_CHD.bat Version 0.99.03 by Sleeperninja
+REM https://github.com/sleeperninja
+REM https://github.com/sleeperninja/CUE_GDI_to_CHD
 
 REM Use variables local to script to avoid scope conflicts with user and system. 
 setlocal

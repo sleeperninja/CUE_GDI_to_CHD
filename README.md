@@ -1,10 +1,10 @@
 # CUE_GDI_to_CHD
 _A drag and drop batch to convert recursive folders of CUE and GDI images to a CHD in the parent folder._
 
-## I noticed
+## Problem
 I noticed the batch files for chdman stopped working. Even GDItoCHD stopped working. Running the CHDMAN batch resulted in a weird nan% frozen in time like John Spartan. I decided to test various scenarios to find out. 
 
-### Tested scenarios
+### Testing
 1. Drag and drop folder nested in chdman folder
 2. Recursive folder search, double clicking batch
 3. CUE/GDI and supporting files same folder as chdman, double clicking batch
@@ -21,7 +21,7 @@ I noticed the batch files for chdman stopped working. Even GDItoCHD stopped work
    1. Takeaway 3: reinforces takeaway 2 from finding 3.
 5. Dreamcast GDI to CHD now says it's working, but actually does nothing.
 
-### Solution Planning
+### Planning
 _There are several requirements for a user friendly solution_
 1. Retain classic double-click support.
 2. Adding Drag & Drop support means the solution is more portable than moving the files to some other directory to perform the compression operation. 
@@ -30,3 +30,16 @@ _There are several requirements for a user friendly solution_
 5. Must support recursive searching (raw Dreamcast rips are messy).
 6. Support multiple nested images (raw Dreamcast rips are messy).
 7. Must use a stupid easy format (for now).
+
+***
+### Version 0.99.03 Notes
+1. This script was created in conjunction with chdman 0.222 (mame0222), but I don't see a reason why you couldn't use just about any version--if you have a preference.
+2. chdman.exe must be in the same folder as the batch file.
+3. CHD files will be created in the directory from which the folder was dragged, or the directory the batch was double-clicked.
+4. That's pretty much it.
+
+***
+#### Contact Info
+[CUE_GDI_to_CHD Repository](https://github.com/sleeperninja/CUE_GDI_to_CHD)
+
+[Created by sleeperninja](https://github.com/sleeperninja)
